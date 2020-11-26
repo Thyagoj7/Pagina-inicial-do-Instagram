@@ -8,6 +8,13 @@
 }
 
 body {
+    
+    background-image: url();
+    background-attachment:fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+    
     width: 100%;
     min-height: 100vh;
     background-color: rgb(243, 243, 243);
@@ -99,7 +106,8 @@ body {
 }
 
 .link-blue{
-    color: #0095f6
+    color: #0095f6;
+    cursor:pointer;
 }
 
 .get-the-app {
@@ -160,6 +168,8 @@ body {
    .group {
        border: 1px solid transparent;
    }
+
+
 }
      
  
